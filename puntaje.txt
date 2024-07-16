@@ -1,0 +1,54 @@
+Debe crear las siguientes funciones:
+
+Revisar Menu (Obligatorio) [20]
+	Muestra el menú de comidas, con el precio. También permite seleccionar un item del menú para agregarlo al “carrito”
+
+
+Revisar Carrito (Obligatorio) [20]
+	Muestra el carrito de comidas seleccionadas.
+
+
+Pagar (Obligatorio) [20]
+	Muestra el costo total y cantidad de ítems del carrito. Luego sugiere la propina (10%). El usuario puede:
+Aceptar: (se asume que paga) y se vacía el carrito.
+Seguir Comprando: Se vuelve al menú principal
+
+
+Quitar Ítem de Carrito [10]
+	Saca un objeto del carrito.
+
+
+Buscar ítem en carrito, por nombre [10]
+	Se debe buscar un item en el carrito según el nombre.
+
+
+Buscar ítem en carrito, por ingredientes [15]
+	Se debe buscar un item en el carrito, según los ingredientes del ítem.
+
+
+Filtrar items que den alergia [20]
+	Se muestran los ítem que NO tengan el o los ingredientes que le causen alergia al usuario.
+
+
+Buscar ítem [15]
+	Se debe buscar un ítem que contenga, en alguna parte, la palabra ingresada por el usuario.
+
+
+Modificar Ítem del Menú [15]
+	Se debe preguntar por la contraseña, la cual debe calzar con la contraseña guardada en el archivo “password.psw”. Luego, se selecciona un item del Menu y se modifican sus datos.
+
+
+Agregar Item al Menú [15]
+	Se debe preguntar por la contraseña, la cual debe calzar con la contraseña guardada en el archivo “password.psw”. Luego, se agrega un item al menú con todos los datos necesarios.
+
+
+Guardar Carrito [20]
+	Se guarda el carrito y el dueño del carrito en un archivo que sea “<nombre_usuario>.carrito”
+
+
+Cargar Carrito [15]
+	Se carga el carrito del usuario, si no existe el archivo, se inicia el programa de forma normal.
+
+
+Calcular Calorías [10]
+	Entrega el total de calorías de los ítems del carrito del usuario.
